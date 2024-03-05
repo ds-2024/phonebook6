@@ -12,4 +12,21 @@
 	
 	</insert>
 	
+	<!-- 전체 리스트 가져오기 select -->
+	<select id="select" parameterType="com.javaex.vo.PersonVo">
+	
+	<![CDATA[
+	
+	select  person_id as personId,
+			name,
+        	hp,
+        	company
+	from person
+	
+	
+	
+	]]>
+	
+	</select>
+	
 </mapper>
